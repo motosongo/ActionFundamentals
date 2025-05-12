@@ -69,5 +69,6 @@ For this workshop you need the following:
 Find common terminology for reference [here](./CheatSheet.md)
 
 Adding modification
-Modification # - without CI
+Modification number 2 - without CI
+Modification number 3 - to test pull request
 
