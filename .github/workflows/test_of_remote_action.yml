@@ -7,5 +7,9 @@ jobs:
     steps:
       - name: Say hello
         uses: motosongo/hello-world-docker-action/hello-world-docker-action@v1
+        id: hello-action
         with:
           who-to-greet: '@octocat'
+
+      - name: Output time set in the container
+        run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"
